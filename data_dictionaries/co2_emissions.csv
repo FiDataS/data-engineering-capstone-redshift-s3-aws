@@ -1,0 +1,11 @@
+tablename;column;type;sortkey;notnull;Description
+co2_emissions;year;integer;1;WAHR;year
+co2_emissions;country;character varying(256);0;WAHR;country
+co2_emissions;total;bigint;0;FALSCH;total emissions
+co2_emissions;solid_fuel;bigint;0;FALSCH;emissions from solid fuel
+co2_emissions;liquid_fuel;bigint;0;FALSCH;emissions from liquid fuel
+co2_emissions;gas_fuel;bigint;0;FALSCH;emissions from gas fuel
+co2_emissions;cement;bigint;0;FALSCH;emissions from cement
+co2_emissions;gas_flaring;bigint;0;FALSCH;emissions from gas flaring
+co2_emissions;per_capita;double precision;0;FALSCH;emissions per capita
+co2_emissions;bunker_fuels_not_in_total;bigint;0;FALSCH;emissions from bunker fuels, not included in the total

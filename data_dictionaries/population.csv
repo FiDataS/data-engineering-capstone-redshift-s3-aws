@@ -1,0 +1,8 @@
+tablename;column;type;sortkey;notnull;Description
+population;country_or_area;character varying(256);0;WAHR;country or area
+population;year;integer;1;WAHR;year
+population;sex;character varying(256);0;WAHR;sex (population number is separated by sex)
+population;city;character varying(256);0;WAHR;city
+population;city_type;character varying(256);0;FALSCH;city type
+population;reliability;character varying(256);0;FALSCH;reliability - comment on how reliable it is
+population;value;integer;0;FALSCH;value of population per sex

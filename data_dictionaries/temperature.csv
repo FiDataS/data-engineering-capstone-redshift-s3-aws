@@ -1,0 +1,10 @@
+tablename;column;type;sortkey;notnull;Description
+temperature;dt;date;1;WAHR;date
+temperature;averagetemperature;double precision;0;FALSCH;average temperature
+temperature;averagetemperatureuncertainty;double precision;0;FALSCH;temperature uncertainty
+temperature;city;character varying(256);0;WAHR;city
+temperature;country;character varying(256);0;WAHR;country
+temperature;latitude;character varying(256);0;WAHR;latitude (city)
+temperature;longitude;character varying(256);0;WAHR;longitude (city)
+temperature;year;integer;0;WAHR;year
+temperature;month;integer;0;WAHR;month

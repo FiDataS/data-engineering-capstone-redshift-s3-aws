@@ -1,0 +1,6 @@
+tablename;column;type;sortkey;notnull;Description
+hdi;iso3;character varying(256);0;WAHR;iso code
+hdi;country;character varying(256);0;WAHR;country
+hdi;hdicode;character varying(256);0;FALSCH;hdi category (High, Medium, etc.)
+hdi;year;integer;1;WAHR;year
+hdi;hdi_value;double precision;0;FALSCH;HDI value
